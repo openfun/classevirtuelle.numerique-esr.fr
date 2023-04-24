@@ -1,6 +1,6 @@
 ---
 description: Paramétrez, programmez et animez facilement vos classes virtuelles
-cover: .gitbook/assets/hero-banner_v4.png
+cover: /assets/hero-banner_v4.png
 coverY: 0
 ---
 
