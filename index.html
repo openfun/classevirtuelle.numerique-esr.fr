@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <title>Solution de classes virtuelles de l'enseignement supérieur</title>
+    <meta
+      name="description"
+      content="Cette solution d'interaction et de collaboration avec les étudiants est mise à disposition de tous les enseignants du supérieur, sur Moodle, Esup-Pod, le portail national des classes virtuelles et les plateformes de France Université Numérique (FUN). Cet outil de classes virtuelles s’appuie sur le logiciel open source BigBlueButton (BBB)."
+    />
+    <meta
+      property="og:title"
+      content="Solution de classes virtuelles de l'enseignement supérieur"
+    />
+    <meta
+      property="og:description"
+      content="Cette solution d'interaction et de collaboration avec les étudiants est mise à disposition de tous les enseignants du supérieur, sur Moodle, Esup-Pod, le portail national des classes virtuelles et les plateformes de France Université Numérique (FUN). Cet outil de classes virtuelles s’appuie sur le logiciel open source BigBlueButton (BBB)."
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.55;
+        color: var(--dl-color-gray-900);
+        background-color: var(--dl-color-gray-white);
+
+      }
+    </style>
+    <link
+      rel="shortcut icon"
+      href="public/playground_assets/favicon.ico"
+      type="icon/png"
+      sizes="32x32"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div>
+      <link href="./home.css" rel="stylesheet" />
+
+      <div class="home-container">
+        <div class="home-hero-banner">
+          <h1 class="home-text">
+            L'outil de classes virtuelles de l'enseignement supérieur
+          </h1>
+          <span class="home-text01">
+            <span>
+              Dans le cadre du Plan de relance, cette solution de classe
+              virtuelle s’appuie sur le logiciel open source BigBlueButton
+              (BBB).
+            </span>
+            <br />
+            <span>
+              Elle est déployée à l’échelle nationale dans un cloud souverain
+              opéré par la Direction du Numérique Éducatif (DNE) sous la
+              responsabilité de France Université Numérique (FUN).
+            </span>
+            <br />
+            <span></span>
+            <span></span>
+          </span>
+          <div class="home-btn-group">
+            <a href="#teacher" class="home-link button">Vous enseignez ?</a>
+            <a href="#dsi" class="home-link1 button">vous êtes dsi ?</a>
+          </div>
+        </div>
+        <div class="home-partners">
+          <div class="home-container01">
+            <img
+              alt="image"
+              src="public/playground_assets/logo%20fun.svg"
+              class="home-image"
+            />
+            <img
+              alt="image"
+              src="public/playground_assets/bigbluebutton_logo.svg-200h.png"
+              class="home-image1"
+            />
+            <img
+              alt="image"
+              src="public/playground_assets/pod_favicon-200h.png"
+              class="home-image2"
+            />
+          </div>
+          <img
+            src="public/playground_assets/etiquette_france_relance_ue1-200h.png"
+            class="home-image3"
+          />
+        </div>
+        <div class="home-new-features">
+          <div class="home-container02">
+            <h1 class="home-text08">Les nouvelles fonctionnalités</h1>
+            <span class="home-text09">
+              <span>
+                En plus des fonctionnalités proposées par la solution
+                BigBlueButton, bénéficiez de nouvelles options de configuration
+              </span>
+              <br />
+            </span>
+            <div class="home-iframe-container">
+              <iframe
+                src="https://www.youtube.com/embed/GaZ5idIxlr0"
+                allowfullscreen=""
+                class="home-iframe"
+              ></iframe>
+            </div>
+          </div>
+          <div class="home-nouvelles-fonctionnalits">
+            <div class="home-features">
+              <div class="feature-card-container">
+                <img
+                  alt="image"
+                  src="public/playground_assets/3-200h.png"
+                  class="feature-card-image"
+                />
+                <h5 class="feature-card-text Headline5">
+                  <span>Paramétrer sa classe une fois pour toute l'année</span>
+                </h5>
+              </div>
+              <div class="feature-card-container feature-card-root-class-name4">
+                <img
+                  alt="image"
+                  src="public/playground_assets/sans%20titre%20%5B1%5D-200h.png"
+                  class="feature-card-image"
+                />
+                <h5 class="feature-card-text Headline5">
+                  <span>Planifier sa classe</span>
+                </h5>
+              </div>
+              <div class="feature-card-container feature-card-root-class-name5">
+                <img
+                  alt="image"
+                  src="public/playground_assets/4-200h.png"
+                  class="feature-card-image"
+                />
+                <h5 class="feature-card-text Headline5">
+                  <span>Précharger des documents</span>
+                </h5>
+              </div>
+              <div class="feature-card-container">
+                <img
+                  alt="image"
+                  src="public/playground_assets/2-200h.png"
+                  class="feature-card-image"
+                />
+                <h5 class="feature-card-text Headline5">
+                  <span>Inviter des participants ou des modérateurs</span>
+                </h5>
+              </div>
+              <div class="feature-card-container">
+                <img
+                  alt="image"
+                  src="public/playground_assets/6-200h.png"
+                  class="feature-card-image"
+                />
+                <h5 class="feature-card-text Headline5">
+                  <span>Activer ou désactiver des options en amont</span>
+                </h5>
+              </div>
+              <div class="feature-card-container">
+                <img
+                  alt="image"
+                  src="public/playground_assets/7-200h.png"
+                  class="feature-card-image"
+                />
+                <h5 class="feature-card-text Headline5">
+                  <span>Saisir un texte de bienvenue</span>
+                </h5>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="home-bb-features">
+          <div class="home-fonctionnalits-bbb">
+            <h2 class="Headline2 home-text12">
+              Les fonctionnalités BigBlueButton
+            </h2>
+            <span class="home-text13">
+              Retrouvez les fonctionnalités qui rendent ce logiciel libre unique
+            </span>
+            <div class="home-les-fonctionnalits">
+              <div class="feature-card-container">
+                <img
+                  alt="image"
+                  src="public/playground_assets/televersement%20doc.svg"
+                  class="feature-card-image"
+                />
+                <h5 class="feature-card-text Headline5">
+                  <span>Téléchargement de documents</span>
+                </h5>
+              </div>
+              <div class="feature-card-container">
+                <img
+                  alt="image"
+                  src="public/playground_assets/tableau%20blanc.svg"
+                  class="feature-card-image"
+                />
+                <h5 class="feature-card-text Headline5">
+                  <span>Tableau blanc multi-utilisateurs</span>
+                </h5>
+              </div>
+              <div class="feature-card-container feature-card-root-class-name6">
+                <img
+                  alt="image"
+                  src="public/playground_assets/options%20video.svg"
+                  class="feature-card-image"
+                />
+                <h5 class="feature-card-text Headline5">
+                  <span>Options vidéo</span>
+                </h5>
+              </div>
+              <div class="feature-card-container feature-card-root-class-name7">
+                <img
+                  alt="image"
+                  src="public/playground_assets/notes%20partage%401x1-200h.png"
+                  class="feature-card-image"
+                />
+                <h5 class="feature-card-text Headline5">
+                  <span>Notes partagées</span>
+                </h5>
+              </div>
+              <div class="feature-card-container">
+                <img
+                  alt="image"
+                  src="public/playground_assets/messages.svg"
+                  class="feature-card-image"
+                />
+                <h5 class="feature-card-text Headline5">
+                  <span>Discussion publique et messages privés</span>
+                </h5>
+              </div>
+              <div class="feature-card-container">
+                <img
+                  alt="image"
+                  src="public/playground_assets/sondage.svg"
+                  class="feature-card-image"
+                />
+                <h5 class="feature-card-text Headline5">
+                  <span>Sondages et diapositives intelligentes</span>
+                </h5>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="home-teacher">
+          <div class="home-features1">
+            <h2 id="teacher" class="home-text14">Vous enseignez ?</h2>
+            <span class="home-text15">
+              4 façons de créer vos classes virtuelles BigBlueButton !
+            </span>
+            <div class="home-separator"></div>
+            <div class="home-container03">
+              <div class="home-container04">
+                <div
+                  class="feature-card4-feature-card feature-card4-root-class-name9"
+                >
+                  <svg viewBox="0 0 1024 1024" class="feature-card4-icon">
+                    <path
+                      d="M809.003 291.328l-297.003 171.819-297.003-171.819 275.456-157.397c4.779-2.731 9.899-4.48 15.147-5.333 9.301-1.451 18.987 0.128 27.904 5.291zM491.776 979.669c6.016 3.243 12.928 5.077 20.224 5.077 7.381 0 14.336-1.877 20.395-5.163 15.189-2.475 29.909-7.68 43.392-15.36l298.709-170.709c26.368-15.232 45.269-38.315 55.424-64.597 5.675-14.592 8.619-30.165 8.747-46.251v-341.333c0-20.395-4.821-39.723-13.397-56.917-0.939-3.029-2.219-5.973-3.883-8.832-1.963-3.371-4.267-6.357-6.912-8.96-1.323-1.835-2.731-3.669-4.139-5.419-9.813-12.203-21.845-22.528-35.456-30.507l-299.051-170.88c-26.027-15.019-55.467-19.84-83.328-15.531-15.531 2.432-30.507 7.637-44.288 15.488l-298.709 170.709c-16.341 9.429-29.824 21.888-40.149 36.267-2.56 2.56-4.864 5.547-6.784 8.832-1.664 2.901-2.987 5.888-3.925 8.96-1.707 3.456-3.243 6.955-4.608 10.496-5.632 14.635-8.576 30.208-8.704 45.995v341.632c0.043 30.293 10.581 58.197 28.331 80.128 9.813 12.203 21.845 22.528 35.456 30.507l299.051 170.88c13.824 7.979 28.587 13.099 43.605 15.445zM469.333 537.045v340.949l-277.12-158.336c-4.736-2.773-8.832-6.315-12.16-10.411-5.931-7.381-9.387-16.512-9.387-26.581v-318.379zM554.667 877.995v-340.949l298.667-172.757v318.379c-0.043 5.163-1.067 10.496-2.987 15.445-3.413 8.789-9.6 16.384-18.176 21.333z"
+                    ></path>
+                  </svg>
+                  <h2 class="feature-card4-text"><span>Moodle</span></h2>
+                  <span class="feature-card4-text1">
+                    <span>
+                      Utilisez BBB en LTI ou via le plugin dans le Moodle de
+                      votre établissement
+                    </span>
+                  </span>
+                </div>
+                <div
+                  class="feature-card4-feature-card feature-card4-root-class-name10"
+                >
+                  <svg viewBox="0 0 1024 1024" class="feature-card4-icon">
+                    <path
+                      d="M809.003 291.328l-297.003 171.819-297.003-171.819 275.456-157.397c4.779-2.731 9.899-4.48 15.147-5.333 9.301-1.451 18.987 0.128 27.904 5.291zM491.776 979.669c6.016 3.243 12.928 5.077 20.224 5.077 7.381 0 14.336-1.877 20.395-5.163 15.189-2.475 29.909-7.68 43.392-15.36l298.709-170.709c26.368-15.232 45.269-38.315 55.424-64.597 5.675-14.592 8.619-30.165 8.747-46.251v-341.333c0-20.395-4.821-39.723-13.397-56.917-0.939-3.029-2.219-5.973-3.883-8.832-1.963-3.371-4.267-6.357-6.912-8.96-1.323-1.835-2.731-3.669-4.139-5.419-9.813-12.203-21.845-22.528-35.456-30.507l-299.051-170.88c-26.027-15.019-55.467-19.84-83.328-15.531-15.531 2.432-30.507 7.637-44.288 15.488l-298.709 170.709c-16.341 9.429-29.824 21.888-40.149 36.267-2.56 2.56-4.864 5.547-6.784 8.832-1.664 2.901-2.987 5.888-3.925 8.96-1.707 3.456-3.243 6.955-4.608 10.496-5.632 14.635-8.576 30.208-8.704 45.995v341.632c0.043 30.293 10.581 58.197 28.331 80.128 9.813 12.203 21.845 22.528 35.456 30.507l299.051 170.88c13.824 7.979 28.587 13.099 43.605 15.445zM469.333 537.045v340.949l-277.12-158.336c-4.736-2.773-8.832-6.315-12.16-10.411-5.931-7.381-9.387-16.512-9.387-26.581v-318.379zM554.667 877.995v-340.949l298.667-172.757v318.379c-0.043 5.163-1.067 10.496-2.987 15.445-3.413 8.789-9.6 16.384-18.176 21.333z"
+                    ></path>
+                  </svg>
+                  <h2 class="feature-card4-text"><span>Esup-Pod</span></h2>
+                  <span class="feature-card4-text1">
+                    <span>
+                      Si votre établissement utilise Esup-Pod, lancez vos
+                      classes virtuelles depuis cette plateforme
+                    </span>
+                  </span>
+                </div>
+                <div
+                  class="feature-card4-feature-card feature-card4-root-class-name11"
+                >
+                  <svg viewBox="0 0 1024 1024" class="feature-card4-icon">
+                    <path
+                      d="M809.003 291.328l-297.003 171.819-297.003-171.819 275.456-157.397c4.779-2.731 9.899-4.48 15.147-5.333 9.301-1.451 18.987 0.128 27.904 5.291zM491.776 979.669c6.016 3.243 12.928 5.077 20.224 5.077 7.381 0 14.336-1.877 20.395-5.163 15.189-2.475 29.909-7.68 43.392-15.36l298.709-170.709c26.368-15.232 45.269-38.315 55.424-64.597 5.675-14.592 8.619-30.165 8.747-46.251v-341.333c0-20.395-4.821-39.723-13.397-56.917-0.939-3.029-2.219-5.973-3.883-8.832-1.963-3.371-4.267-6.357-6.912-8.96-1.323-1.835-2.731-3.669-4.139-5.419-9.813-12.203-21.845-22.528-35.456-30.507l-299.051-170.88c-26.027-15.019-55.467-19.84-83.328-15.531-15.531 2.432-30.507 7.637-44.288 15.488l-298.709 170.709c-16.341 9.429-29.824 21.888-40.149 36.267-2.56 2.56-4.864 5.547-6.784 8.832-1.664 2.901-2.987 5.888-3.925 8.96-1.707 3.456-3.243 6.955-4.608 10.496-5.632 14.635-8.576 30.208-8.704 45.995v341.632c0.043 30.293 10.581 58.197 28.331 80.128 9.813 12.203 21.845 22.528 35.456 30.507l299.051 170.88c13.824 7.979 28.587 13.099 43.605 15.445zM469.333 537.045v340.949l-277.12-158.336c-4.736-2.773-8.832-6.315-12.16-10.411-5.931-7.381-9.387-16.512-9.387-26.581v-318.379zM554.667 877.995v-340.949l298.667-172.757v318.379c-0.043 5.163-1.067 10.496-2.987 15.445-3.413 8.789-9.6 16.384-18.176 21.333z"
+                    ></path>
+                  </svg>
+                  <h2 class="feature-card4-text">
+                    <span>Portail national des classes virtuelles</span>
+                  </h2>
+                  <span class="feature-card4-text1">
+                    <span>
+                      Connectez-vous avec vos identifiants universitaires pour
+                      lancer une classe virtuelle sans attendre
+                    </span>
+                  </span>
+                </div>
+                <div
+                  class="feature-card4-feature-card feature-card4-root-class-name12"
+                >
+                  <svg viewBox="0 0 1024 1024" class="feature-card4-icon">
+                    <path
+                      d="M809.003 291.328l-297.003 171.819-297.003-171.819 275.456-157.397c4.779-2.731 9.899-4.48 15.147-5.333 9.301-1.451 18.987 0.128 27.904 5.291zM491.776 979.669c6.016 3.243 12.928 5.077 20.224 5.077 7.381 0 14.336-1.877 20.395-5.163 15.189-2.475 29.909-7.68 43.392-15.36l298.709-170.709c26.368-15.232 45.269-38.315 55.424-64.597 5.675-14.592 8.619-30.165 8.747-46.251v-341.333c0-20.395-4.821-39.723-13.397-56.917-0.939-3.029-2.219-5.973-3.883-8.832-1.963-3.371-4.267-6.357-6.912-8.96-1.323-1.835-2.731-3.669-4.139-5.419-9.813-12.203-21.845-22.528-35.456-30.507l-299.051-170.88c-26.027-15.019-55.467-19.84-83.328-15.531-15.531 2.432-30.507 7.637-44.288 15.488l-298.709 170.709c-16.341 9.429-29.824 21.888-40.149 36.267-2.56 2.56-4.864 5.547-6.784 8.832-1.664 2.901-2.987 5.888-3.925 8.96-1.707 3.456-3.243 6.955-4.608 10.496-5.632 14.635-8.576 30.208-8.704 45.995v341.632c0.043 30.293 10.581 58.197 28.331 80.128 9.813 12.203 21.845 22.528 35.456 30.507l299.051 170.88c13.824 7.979 28.587 13.099 43.605 15.445zM469.333 537.045v340.949l-277.12-158.336c-4.736-2.773-8.832-6.315-12.16-10.411-5.931-7.381-9.387-16.512-9.387-26.581v-318.379zM554.667 877.995v-340.949l298.667-172.757v318.379c-0.043 5.163-1.067 10.496-2.987 15.445-3.413 8.789-9.6 16.384-18.176 21.333z"
+                    ></path>
+                  </svg>
+                  <h2 class="feature-card4-text">
+                    <span>Plateformes FUN</span>
+                  </h2>
+                  <span class="feature-card4-text1">
+                    <span>
+                      Si vous créez des cours sur FUN MOOC, l'outil de classes
+                      virtuelles est préinstallé
+                    </span>
+                  </span>
+                </div>
+                <div
+                  class="link-icon-button-container link-icon-button-root-class-name2"
+                >
+                  <button class="link-icon-button-button button">
+                    <span class="link-icon-button-text MediumLabel">
+                      <span>Télécharger l'affiche en PDF</span>
+                    </span>
+                    <svg viewBox="0 0 1024 1024" class="link-icon-button-icon">
+                      <path
+                        d="M481.835 243.499l225.835 225.835h-494.336c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667h494.336l-225.835 225.835c-16.683 16.683-16.683 43.691 0 60.331s43.691 16.683 60.331 0l298.667-298.667c3.925-3.925 7.083-8.619 9.259-13.824 4.309-10.453 4.309-22.229 0-32.683-2.091-5.035-5.163-9.728-9.259-13.824l-298.667-298.667c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331z"
+                      ></path>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+              <div class="home-container05">
+                <img
+                  alt="image"
+                  src="public/playground_assets/pixel%20true%20mockup%20high-300h.png"
+                  class="home-image4"
+                />
+                <a
+                  href="https://france-universite-numerique.gitbook.io/organisez-des-classes-virtuelles-bigbluebutton/"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  class="home-link2 button MediumLabel"
+                >
+                  Consulter le guide d'utilisation
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="home-ds-section">
+          <div class="home-container06">
+            <div class="home-container07">
+              <h2 id="dsi" class="home-heading">Vous êtes DSI ?</h2>
+              <span class="home-text16">
+                Vous souhaitez mettre en place la solution de classes virtuelles
+                dans votre établissement ?&nbsp;Suivez le guide !
+              </span>
+              <div class="home-container08">
+                <a
+                  href="https://france-universite-numerique.gitbook.io/organisez-des-classes-virtuelles-bigbluebutton/pour-les-dsi/installation-du-plugin-lti-sur-moodle"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  class="home-link3 button MediumLabel"
+                >
+                  Installer des classes virtuelles sur Moodle en LTI
+                </a>
+                <a
+                  href="https://france-universite-numerique.gitbook.io/organisez-des-classes-virtuelles-bigbluebutton/pour-les-dsi/integrer-le-plugin-bbb-sur-moodle"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  class="home-link4 MediumLabel button"
+                >
+                  Installer le plugin BigBlueButton sur Moodle
+                </a>
+                <a
+                  href="https://france-universite-numerique.gitbook.io/organisez-des-classes-virtuelles-bigbluebutton/pour-les-dsi/installer-bigbluebutton-avec-esup-pod"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  class="home-link5 button MediumLabel"
+                >
+                  Installer BigBlueButton sur Esup-Pod
+                </a>
+              </div>
+              <div
+                class="link-icon-button-container link-icon-button-root-class-name3"
+              >
+                <button class="link-icon-button-button button">
+                  <span class="link-icon-button-text MediumLabel">
+                    <span>Télécharger l'affiche en PDF</span>
+                  </span>
+                  <svg viewBox="0 0 1024 1024" class="link-icon-button-icon">
+                    <path
+                      d="M481.835 243.499l225.835 225.835h-494.336c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667h494.336l-225.835 225.835c-16.683 16.683-16.683 43.691 0 60.331s43.691 16.683 60.331 0l298.667-298.667c3.925-3.925 7.083-8.619 9.259-13.824 4.309-10.453 4.309-22.229 0-32.683-2.091-5.035-5.163-9.728-9.259-13.824l-298.667-298.667c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331z"
+                    ></path>
+                  </svg>
+                </button>
+              </div>
+            </div>
+            <div class="home-container09">
+              <img
+                alt="image"
+                src="public/playground_assets/moodle-phone-transparent-600w.png"
+                image_src="dab1286f-0104-48fa-bd7d-135e132129dd"
+                class="home-image5"
+              />
+              <img
+                alt="image"
+                src="https://images.unsplash.com/photo-1521898284481-a5ec348cb555?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDEzfHxpdCUyMHNlcnZpY2V8ZW58MHx8fHwxNjgxODMyNDIz&amp;ixlib=rb-4.0.3&amp;h=400"
+                image_src="dab1286f-0104-48fa-bd7d-135e132129dd"
+                class="home-image6"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="home-footer">
+          <footer class="home-container10">
+            <div class="home-container11"></div>
+            <img
+              alt="image"
+              src="public/playground_assets/etiquette_france_relance_ue-1200w.png"
+              class="home-image7"
+            />
+            <div class="home-container12">
+              <span class="home-text17">
+                <br class="home-text18" />
+                <br />
+              </span>
+              <a href="mentions-lgales.html" class="home-navlink">
+                Mentions légales
+              </a>
+            </div>
+            <div class="home-divider"></div>
+            <div class="home-container13">
+              <span class="home-text20 Body2">
+                © 2023 France Université Numérique
+              </span>
+              <div class="home-container14">
+                <img
+                  alt="image"
+                  src="public/playground_assets/logo%20fun.svg"
+                  class="home-image8"
+                />
+              </div>
+            </div>
+          </footer>
+        </div>
+      </div>
+    </div>
+    <script src="https://unpkg.com/@teleporthq/teleport-custom-scripts"></script>
+  </body>
+</html>
