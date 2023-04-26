@@ -190,15 +190,6 @@
   flex-direction: column;
   justify-content: space-between;
 }
-.mentions-legales-container3 {
-  border: 2px dashed rgba(120, 120, 120, 0.4);
-  display: flex;
-  margin-top: var(--dl-space-space-doubleunit);
-  align-items: center;
-  margin-bottom: var(--dl-space-space-doubleunit);
-  flex-direction: row;
-  justify-content: flex-start;
-}
 .mentions-legales-image4 {
   width: 515px;
   height: 83px;
@@ -333,10 +324,6 @@
   }
   .mentions-legales-image {
     margin: var(--dl-space-space-unit);
-  }
-  .mentions-legales-container3 {
-    flex-wrap: wrap;
-    justify-content: center;
   }
   .mentions-legales-container4 {
     flex-direction: column;

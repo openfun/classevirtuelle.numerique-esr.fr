@@ -659,15 +659,6 @@
   flex-direction: column;
   justify-content: space-between;
 }
-.home-container11 {
-  border: 2px dashed rgba(120, 120, 120, 0.4);
-  display: flex;
-  margin-top: var(--dl-space-space-doubleunit);
-  align-items: center;
-  margin-bottom: var(--dl-space-space-doubleunit);
-  flex-direction: row;
-  justify-content: flex-start;
-}
 .home-image7 {
   width: 515px;
   height: 83px;
@@ -1028,10 +1019,6 @@
   }
   .home-text16 {
     font-size: 20px;
-  }
-  .home-container11 {
-    flex-wrap: wrap;
-    justify-content: center;
   }
   .home-container12 {
     flex-wrap: wrap;
