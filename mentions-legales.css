@@ -18,7 +18,7 @@
   flex-direction: column;
   background-size: cover;
   justify-content: center;
-  background-image: linear-gradient(113deg, rgba(255, 76, 92, 0.8) 7.00%,rgba(0, 29, 246, 0.8) 98.00%),url("/public/playground_assets/illustration_details_full-1500h.png");
+  background-image: linear-gradient(113deg, rgba(255, 76, 92, 0.8) 7.00%,rgba(0, 29, 246, 0.8) 98.00%),url("public/playground_assets/illustration_details_full-1500h.png");
 }
 .mentions-legales-text {
   color: var(--dl-color-gray-white);
