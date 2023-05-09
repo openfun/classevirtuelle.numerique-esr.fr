@@ -4,7 +4,7 @@ description: >-
   fonctionnalités de BigBlueButton
 ---
 
-# 👩‍🏫 4. Animer la classe virtuelle avec BigBlueButton
+# 4. Animer la classe virtuelle avec BigBlueButton
 
 En cliquant sur le bouton `Rejoindre` à l'heure prévue, un nouvel onglet s'ouvre et vous êtes désormais dans la salle BigBlueButton. Vous pouvez alors profiter de toutes les fonctionnalités de la version 2.5 de cette solution.
 
