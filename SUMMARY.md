@@ -11,7 +11,7 @@
   * [Depuis les plateformes FUN](guide/creer-votre-classe-virtuelle/depuis-les-plateformes-fun.md)
 * [🎛 2. Configurer la classe virtuelle](guide/configurer-votre-classe-virtuelle.md)
 * [🚀 3. Lancer la classe virtuelle](guide/lancer-votre-classe-virtuelle.md)
-* [👩🏫 4. Animer la classe virtuelle avec BigBlueButton](guide/animer-votre-classe-virtuelle.md)
+* [👩‍🏫 4. Animer la classe virtuelle avec BigBlueButton](guide/animer-votre-classe-virtuelle.md)
 * [⏹ 5. Mettre fin à la classe virtuelle](guide/mettre-fin-a-la-classe-virtuelle.md)
 
 ## ⚙ Pour les DSI
