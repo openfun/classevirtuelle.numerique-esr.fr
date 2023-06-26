@@ -80,18 +80,13 @@
   object-position: center;
 }
 .mentions-legales-legal-mentions {
-  flex: 0 0 auto;
-  width: 80vw;
-  height: auto;
+  width: fit-content;
+  margin: 50px auto; 
   display: flex;
-  align-self: center;
-  margin-top: var(--dl-space-space-tripleunit);
-  align-items: flex-start;
-  margin-left: var(--dl-space-space-tripleunit);
-  margin-right: var(--dl-space-space-tripleunit);
-  margin-bottom: var(--dl-space-space-tripleunit);
   flex-direction: column;
-  justify-content: center;
+  align-items: left; 
+  justify-content: left; 
+  text-align: left; 
 }
 .mentions-legales-heading {
   width: auto;
