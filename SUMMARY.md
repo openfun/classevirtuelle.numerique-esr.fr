@@ -20,3 +20,9 @@
 * [Intégrer le plugin BBB sur Moodle](pour-les-dsi/integrer-le-plugin-bbb-sur-moodle.md)
 * [Installer BigBlueButton avec Esup-Pod](pour-les-dsi/installer-bigbluebutton-avec-esup-pod.md)
 * [Infrastructure BigBlueButton de l'ESR](pour-les-dsi/infrastructure-bbb-esr.md)
+
+## ⚖ Mentions légales
+
+* [Mentions légales](legal/mentions-legales.md)
+
+
