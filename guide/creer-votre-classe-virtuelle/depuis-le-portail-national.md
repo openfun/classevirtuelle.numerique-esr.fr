@@ -23,7 +23,7 @@ Suivez les étapes suivantes pour créer facilement des classes virtuelles pour 
 La portail permet la connexion via la fédération d'identité Shibboleth (RENATER).
 {% endhint %}
 
-1. Rendez-vous sur le portail via l'adresse [https://marsha.education/](https://marsha.education/).
+1. Rendez-vous sur le portail via l'adresse [https://classe-virtuelle.numerique-esr.fr](https://classe-virtuelle.numerique-esr.fr).
 
 ![](../../assets/vignette-login-marsha-vf.png)
 
