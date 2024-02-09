@@ -9,7 +9,7 @@ description: Installez ou activez le plugin BBB dans le Moodle de votre établis
 ## **Prérequis**
 
 {% hint style="warning" %}
-Avant de vous rendre sur Moodle, vous devez obtenir les identifiants du serveur BigBlueButton auprès de France Université Numérique en utilisant [ce formulaire de demande](https://www.fun-mooc.help/hc/fr/requests/new?ticket\_form\_id=9122250595357) ou en écrivant à l'adresse suivante : fun-ops\[a]fun-mooc.fr.
+Avant de vous rendre sur Moodle, vous devez obtenir les identifiants du serveur BigBlueButton auprès de France Université Numérique en utilisant [ce formulaire de demande](https://www.fun-mooc.help/hc/fr/requests/new?ticket_form_id=9122250595357) (choisissez l'option "Demande de Tenant").
 
 Une version de test est néanmoins fonctionnelle sur Moodle 4.x pour expérimenter la solution avant de l'installer.
 {% endhint %}
