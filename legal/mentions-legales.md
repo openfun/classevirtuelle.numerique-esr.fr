@@ -8,8 +8,8 @@ SIREN 130 021 256
 Contact : [communication@fun-mooc.fr](mailto:communication@fun-mooc.fr)
 
 ### Directeur de la publication
-Catherine Mongenet  
-Directrice du GIP FUN  
+Ollivier Haemmerlé  
+Directeur du GIP France Université Numérique  
 
 ## Hébergement
 Le site [https://www.numerique-esr.fr/](https://www.numerique-esr.fr/) est hébergé sur **GitHub Pages** :  
