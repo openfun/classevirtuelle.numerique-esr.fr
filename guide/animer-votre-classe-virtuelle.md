@@ -6,7 +6,7 @@ description: >-
 
 # 4. Animer la classe virtuelle avec BigBlueButton
 
-En cliquant sur le bouton `Rejoindre` à l'heure prévue, un nouvel onglet s'ouvre et vous êtes désormais dans la salle BigBlueButton. Vous pouvez alors profiter de toutes les fonctionnalités de la version 2.5 de cette solution.
+En cliquant sur le bouton `Rejoindre` à l'heure prévue, un nouvel onglet s'ouvre et vous êtes désormais dans la salle BigBlueButton. Vous pouvez alors profiter de toutes les fonctionnalités de la version 2.6 de cette solution.
 
 ![Ecran de lancement par défaut de la solution BBB pour l'ESR](/assets/animer-v2.5.png)
 
