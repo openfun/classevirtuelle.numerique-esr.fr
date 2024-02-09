@@ -14,7 +14,7 @@ Vous pouvez accéder à la solution de classes virtuelles via l’une des modali
 * **En utilisant l'activité de classes virtuelles disponible dans le cours Moodle via le standard LTI[^1]**, vous pourrez bénéficier de fonctionnalités de planification, d'invitation, d'enregistrement, d'import de documents et de paramétrage en amont. Toutes ces fonctionnalités sont documentées à l'étape suivante [configurer-votre-classe-virtuelle.md](../configurer-votre-classe-virtuelle.md "mention").
 
 {% hint style="info" %}
-Pour installer le passeport LTI ou le plugin BBB permettant l'accès à la solution dans Moodle, votre DSI peut contacter l'équipe technique de FUN en utilisant [ce formulaire de demande](https://www.fun-mooc.help/hc/fr/requests/new?ticket\_form\_id=9122250595357) ou en écrivant à l'adresse suivante : fun-ops\[a]fun-mooc.fr
+Pour installer le passeport LTI ou le plugin BBB permettant l'accès à la solution dans Moodle, votre DSI peut contacter l'équipe technique de FUN en utilisant [ce formulaire de demande](https://www.fun-mooc.help/hc/fr/requests/new?ticket_form_id=9122250595357).
 {% endhint %}
 
 :bulb: **Consultez votre DSI pour savoir quelle modalité a été choisie au moment de l'installation.**

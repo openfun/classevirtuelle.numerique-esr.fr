@@ -15,7 +15,7 @@ L'installation du plugin LTI est compatible avec les versions 3.x et 4.x de Mood
 ## **Prérequis**
 
 {% hint style="warning" %}
-Avant de vous rendre sur Moodle, vous devez obtenir **un passeport LTI** auprès de France Université Numérique en utilisant [ce formulaire de demande](https://www.fun-mooc.help/hc/fr/requests/new?ticket\_form\_id=9122250595357) ou en écrivant à l'adresse suivante : fun-ops\[a]fun-mooc.fr
+Avant de vous rendre sur Moodle, vous devez obtenir **un passeport LTI** auprès de France Université Numérique en utilisant [ce formulaire de demande](https://www.fun-mooc.help/hc/fr/requests/new?ticket\_form\_id=9122250595357) (choisissez l'option "Demande de passeport LTI").
 
 Le passeport doit contenir 2 identifiants OAuth : une [clef client](#user-content-fn-3)[^3] et un [secret partagé](#user-content-fn-4)[^4].
 {% endhint %}
